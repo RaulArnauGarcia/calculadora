@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=q, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container_sketch" value="">
+      <input class="pantalla" value="" id="pantalla" readonly></input>
+      <div class="contenedor_botones">
+        <div class="botones_l1">
+          <button class="botones botones_del1 Numero1" value="" id="marcha">On/Off</button>
+          <button class="botones botones_del1 Numero3" value="">C</button>
+          <button class="botones botones_del1 Numero4" value="Delete"></button>
+        </div>
+        <div class="mitad">
+          <div class="botones_numeros">
+            <button class="botones_deNumeros tecla7" value="7">7</button>
+            <button class="botones_deNumeros tecla8" value="8">8</button>
+            <button class="botones_deNumeros tecla9" value="9">9</button>
+            <button class="botones_deNumeros tecla4" value="4">4</button>
+            <button class="botones_deNumeros tecla5" value="5">5</button>
+            <button class="botones_deNumeros tecla6" value="6">6</button>
+            <button class="botones_deNumeros tecla1" value="1">1</button>
+            <button class="botones_deNumeros tecla2" value="2">2</button>
+            <button class="botones_deNumeros tecla3" value="3">3</button>
+            <button class="botones_deNumeros tecla0 independant" value="0">0</button>
+          </div>
+          <div class="botones_signos">
+            <button class="botones botones_deSignos teclaX" value="*">x</button>
+            <button class="botones botones_deSignos tecla-" value="-">-</button>
+            <button class="botones botones_deSignos teclaMas" value="+">+</button>
+            <button class="botones botones_deSignos teclaDiv" value="/">/</button>
+          </div>
+        </div>
+        <div class="botones_final">
+          <button class="botones botones_deFinal teclaComa" value=".">,</button>
+          <button class="botones botones_deFinal teclaIgual" value="">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="Encender.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
